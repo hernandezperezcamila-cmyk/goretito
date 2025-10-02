@@ -1,0 +1,84 @@
+/*General*/
+body
+{
+    font-family: Arial, Helvetica, sans-serif; /*fuente de todas las paginas*/
+    margin: 0;/*margenes*/
+    padding: 0; /*quitar relleno*/
+    background-color: rgb(0, 0, 0); /*color de fondo*/
+    color: rgb(242, 243, 243); /*color del texto*/
+
+}
+/*encabezado*/
+header
+{
+    text-align: center; /*centrar el texto*/
+    background-color: rgb(0, 0, 0);
+    color:floralwhite;
+    padding: 20px 0;
+    font-size: 28px; /*tamaño texto*/
+    text-shadow: 2px 2px 5px #000000; /*sombra del texto para dar relieves*/
+}
+/*menu de navegacion*/
+nav
+{
+    display: flex; /*organizar el contenido*/
+    justify-content: space-between; /*alinea verticalmente*/
+    align-items: center; /*alinea verticalmente*/
+    background-color:rgb(0, 37, 139);
+    padding: 10px;
+}
+nav ul
+{
+    list-style: none;/*quitar viñetas*/
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /*espacio entre cada enlace*/
+}
+nav ul li {
+    display: inline; /*cada elemento se muestra en una linea*/
+}
+nav ul li a
+{
+    text-decoration: none; /*quitar el subrayado*/
+    color: aliceblue;
+    font-weight: bold; /*texto en negritas*/
+    transition: color 0.3s;
+}
+nav ul li a:hover
+{
+color: rgb(31, 198, 253); /*cambio de color al pasar el cursor*/
+}
+nav form
+{
+    display: flex;
+    gap: 5px;
+}
+nav input[type="search"]
+{
+    padding: 5px;
+    border: none;/*borde none es sin bordes*/
+    border-radius: 5px;/*borde redondeado*/
+}
+nav input[type="submit"]
+{
+    background-color: #000;
+    color: beige;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;/*cambair cursor al pasar*/
+}
+/*contenido principal*/
+main
+{
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+ul{
+    color:#000000
+}
+li a{
+    color:rgb(11, 158, 184)
+}
